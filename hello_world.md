@@ -1,0 +1,121 @@
+以下の手順でsub agentを呼び出し、処理を完了してください。
+処理をする前に、 `tape.json` と `output.txt` を削除してください。
+処理中は「データポインター」の数字を常に意識して、サブエージェントから伝えられたデータポインターの値を常に次のサブエージェントにも伝えるようにしてください。最初のデータポインターは0です。
+
+1. use bf-increment
+2. use bf-increment
+3. use bf-increment
+4. use bf-increment
+5. use bf-increment
+6. use bf-increment
+7. use bf-increment
+8. use bf-increment
+9. use bf-increment
+10. use bf-jump. (If you are jumping, skip processing to the point where the indent level is the same as this element.)
+   11. use bf-move-right
+   12. use bf-increment
+   13. use bf-increment
+   14. use bf-increment
+   15. use bf-increment
+   16. use bf-increment
+   17. use bf-increment
+   18. use bf-increment
+   19. use bf-increment
+   20. use bf-move-right
+   21. use bf-increment
+   22. use bf-increment
+   23. use bf-increment
+   24. use bf-increment
+   25. use bf-increment
+   26. use bf-increment
+   27. use bf-increment
+   28. use bf-increment
+   29. use bf-increment
+   30. use bf-increment
+   31. use bf-increment
+   32. use bf-move-right
+   33. use bf-increment
+   34. use bf-increment
+   35. use bf-increment
+   36. use bf-move-right
+   37. use bf-increment
+   38. use bf-move-left
+   39. use bf-move-left
+   40. use bf-move-left
+   41. use bf-move-left
+   42. use bf-decrement
+   43. use bf-back (If you are jumping, go back to the point where the indent level is one lower than this element)
+44. use bf-move-right
+45. use bf-output
+46. use bf-move-right
+47. use bf-increment
+48. use bf-increment
+49. use bf-output
+50. use bf-increment
+51. use bf-increment
+52. use bf-increment
+53. use bf-increment
+54. use bf-increment
+55. use bf-increment
+56. use bf-increment
+57. use bf-output
+58. use bf-output
+59. use bf-increment
+60. use bf-increment
+61. use bf-increment
+62. use bf-output
+63. use bf-move-right
+64. use bf-increment
+65. use bf-increment
+66. use bf-increment
+67. use bf-increment
+68. use bf-increment
+69. use bf-output
+70. use bf-move-left
+71. use bf-move-left
+72. use bf-increment
+73. use bf-increment
+74. use bf-increment
+75. use bf-increment
+76. use bf-increment
+77. use bf-increment
+78. use bf-increment
+79. use bf-increment
+80. use bf-increment
+81. use bf-increment
+82. use bf-increment
+83. use bf-increment
+84. use bf-increment
+85. use bf-increment
+86. use bf-increment
+87. use bf-output
+88. use bf-move-right
+89. use bf-output
+90. use bf-increment
+91. use bf-increment
+92. use bf-increment
+93. use bf-output
+94. use bf-decrement
+95. use bf-decrement
+96. use bf-decrement
+97. use bf-decrement
+98. use bf-decrement
+99. use bf-decrement
+100. use bf-output
+101. use bf-decrement
+102. use bf-decrement
+103. use bf-decrement
+104. use bf-decrement
+105. use bf-decrement
+106. use bf-decrement
+107. use bf-decrement
+108. use bf-decrement
+109. use bf-output
+110. use bf-move-right
+111. use bf-increment
+112. use bf-output
+113. use bf-move-right
+114. use bf-increment
+115. use bf-output
+
+すべての処理が終わったら、 @output.txt の内容を教えてください。

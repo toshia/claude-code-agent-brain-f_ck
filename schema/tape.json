@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "data": {
+            "type": "array",
+            "description": "テープの内容",
+            "items": [
+                {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 255,
+                    "description": "この位置の値"
+                }
+            ]
+        }
+    },
+    "required": [
+        "data"
+    ],
+    "additionalProperties": false
+}
